@@ -11,6 +11,4 @@ export class TemperatureValueConverter {
       return value;
     }
   }
-
-  fromView(value) {}
 }

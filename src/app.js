@@ -1,13 +1,6 @@
-import { inject } from 'aurelia-framework';
 import { PLATFORM } from 'aurelia-pal';
-import { GlobalStore } from 'global-store';
 
-@inject(GlobalStore)
 export class App {
-  constructor(globalStore) {
-    this.globalStore = globalStore;
-  }
-
   configureRouter(config, router) {
     this.router = router;
     config.title = 'ASG Aurelia Demo';
