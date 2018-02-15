@@ -1,0 +1,18 @@
+<template>
+  <require from="./nav-bar.scss"></require>
+  <nav class="navbar is-white">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="#">${title}</a>
+      <div ref="burger" click.delegate="showMenu($event)" class="navbar-burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+    <div ref="navMenu" class="navbar-menu">
+      <div class="navbar-start">
+        <a repeat.for="nav of router.navigation" class="navbar-item" href.bind="nav.href">${nav.title}</a>
+      </div>
+    </div>
+  </nav>
+</template>
