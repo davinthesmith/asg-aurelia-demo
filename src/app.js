@@ -18,13 +18,6 @@ export class App {
         moduleId: PLATFORM.moduleName('pages/temperature-example/temperature-example'),
         nav: true,
         title: 'Temperature'
-      },
-      {
-        route: 'list-example',
-        name: 'list-example',
-        moduleId: PLATFORM.moduleName('pages/list-example/list-example'),
-        nav: true,
-        title: 'List'
       }
     ]);
   }
