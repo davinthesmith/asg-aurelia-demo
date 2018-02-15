@@ -32,6 +32,13 @@ export class App {
         moduleId: PLATFORM.moduleName('pages/list-example/list-example'),
         nav: true,
         title: 'List'
+      },
+      {
+        route: 'wrapper-example',
+        name: 'wrapper-example',
+        moduleId: PLATFORM.moduleName('pages/wrapper-example/wrapper-example'),
+        nav: true,
+        title: 'Grid'
       }
     ]);
   }

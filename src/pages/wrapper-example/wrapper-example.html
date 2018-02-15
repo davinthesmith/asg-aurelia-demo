@@ -1,0 +1,16 @@
+<template>
+  <require from="resources/elements/grid"></require>
+
+  <div class="container">
+    <div class="columns">
+      <div class="column is-one-third">
+        <div style="height: 200px; width: 100%">
+          <grid rows.bind="gridRows" columns.bind="gridColumns"></grid>
+        </div>
+      </div>
+      <div class="column is-one-third">
+        <span show.bind="clickedCell">You clicked: ${clickedCell}</span>
+      </div>
+    </div>
+  </div>
+</template>
