@@ -2,5 +2,7 @@
   <require from="./led.scss"></require>
   <require from="resources/attributes/temperature-color"></require>
 
-  <div class="circle" temperature-color.bind="value"></div>
+  <span temperature-color.bind="value" class="icon is-large">
+    <i class="fas fa-2x fa-thermometer-three-quarters"></i>
+  </span>
 </template>

@@ -8,11 +8,11 @@ export class TemperatureColorCustomAttribute {
 
   valueChanged(newValue, oldValue) {
     if (newValue > 80) {
-      this.element.style.backgroundColor = 'red';
+      this.element.style.color = 'red';
     } else if (newValue < 60) {
-      this.element.style.backgroundColor = 'deepskyblue';
+      this.element.style.color = 'deepskyblue';
     } else {
-      this.element.style.backgroundColor = 'lightgray';
+      this.element.style.color = 'lightgray';
     }
   }
 }
