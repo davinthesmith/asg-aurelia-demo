@@ -1,6 +1,6 @@
 import {bindable} from 'aurelia-framework';
 
-export class Led {
+export class ThermometerCustomElement {
   @bindable value;
 }
 

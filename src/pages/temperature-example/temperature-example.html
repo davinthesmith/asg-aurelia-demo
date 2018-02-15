@@ -1,6 +1,6 @@
 <template>
   <require from="./temperature-example.scss"></require>
-  <require from="resources/elements/led"></require>
+  <require from="resources/elements/thermometer"></require>
   <require from="resources/value-converters/temperature"></require>
   <require from="resources/value-converters/number-format"></require>
 
@@ -13,7 +13,7 @@
     <div class="columns">
       <div class="column">
         <div class="is-flex temp-div">
-          <led value.bind="currentTemp"></led>
+          <thermometer value.bind="currentTemp"></thermometer>
           <span class="is-size-3">${currentTemp | numberFormat:'0.0'}</span>
           <span class="is-size-4"> °F </span>
           <span> / ${currentTemp | temperature:'C' | numberFormat:'0.0' & throttle:1000} °C</span>
