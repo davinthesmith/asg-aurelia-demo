@@ -10,7 +10,7 @@ export class InputExample {
 
   attached() {
     this.globalStore.title = 'Home';
-    this.globalStore.subtitle = 'Hello World: An soft introduction to binding';
+    this.globalStore.subtitle = 'Hello World: A soft introduction to binding';
     this.globalStore.heroStyle = 'primary';
   }
 }

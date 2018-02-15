@@ -1,9 +1,7 @@
 import { bindable } from 'aurelia-framework';
 
 export class Hero {
-  constructor() {
-    this.heroStyle = 'primary';
-  }
+  heroStyle = 'primary';
 
   @bindable heroStyle;
   @bindable title;
