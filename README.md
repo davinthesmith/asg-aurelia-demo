@@ -1,5 +1,5 @@
 # asg-aurelia-demo
-###Sample Aurelia project for Acadiana Software Group presentation
+### Sample Aurelia project for Acadiana Software Group presentation
 
 To use this project, 
 
